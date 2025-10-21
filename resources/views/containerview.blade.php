@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquafrost - Admin Dashboard</title>
+    <title>Aquafrost - Container</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -113,58 +113,6 @@
 
         <!-- Middle Section -->
         <div class="grid-2">
-            <!-- Running Projects -->
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-title">Running Projects</div>
-                    <div class="dropdown">Working Time <i class="bi bi-chevron-down"></i></div>
-                </div>
-
-                <div class="progress-info">
-                    <div class="progress-label">Falcon</div>
-                    <div>90%</div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 90%; background-color: var(--primary);"></div>
-                </div>
-
-                <div class="progress-info">
-                    <div class="progress-label">Reign</div>
-                    <div>78%</div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 78%; background-color: var(--success);"></div>
-                </div>
-
-                <div class="progress-info">
-                    <div class="progress-label">BootS4</div>
-                    <div>79%</div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 79%; background-color: var(--warning);"></div>
-                </div>
-
-                <div class="progress-info">
-                    <div class="progress-label">Raven</div>
-                    <div>38%</div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 38%; background-color: var(--danger);"></div>
-                </div>
-
-                <div class="progress-info">
-                    <div class="progress-label">Slick</div>
-                    <div>40%</div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 40%; background-color: var(--secondary);"></div>
-                </div>
-
-                <a href="#" class="show-all">
-                    Show all projects <i class="bi bi-arrow-right"></i>
-                </a>
-            </div>
-
             <!-- Total Sales Graph -->
             <div class="card">
                 <div class="card-header">
@@ -177,83 +125,14 @@
             </div>
         </div>
 
-        <!-- Bottom Section -->
-        <div class="grid-3">
-            <!-- Storage Card -->
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-title">Storage</div>
-                </div>
-                <div style="margin-bottom: 15px;">
-                    Using Storage <strong>1466 MB</strong> of <strong>2 GB</strong>
-                </div>
-                <div class="storage-progress"></div>
-                <div class="storage-labels">
-                    <div class="storage-label">
-                        <div class="storage-color" style="background-color: var(--primary);"></div>
-                        Regular
-                    </div>
-                    <div class="storage-label">
-                        <div class="storage-color" style="background-color: var(--secondary);"></div>
-                        System
-                    </div>
-                    <div class="storage-label">
-                        <div class="storage-color" style="background-color: var(--success);"></div>
-                        Shared
-                    </div>
-                    <div class="storage-label">
-                        <div class="storage-color" style="background-color: var(--light);"></div>
-                        Free
-                    </div>
-                </div>
-            </div>
 
-            <!-- Best Selling Products -->
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-title">Best Selling Products</div>
-                </div>
-
-                <div class="product-item">
-                    <div class="product-icon">
-                        <i class="bi bi-laptop"></i>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-name">Raven Pro (Landing)</div>
-                        <div class="product-details">
-                            <span class="product-price">$1311</span> • 41%
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <div class="product-icon">
-                        <i class="bi bi-briefcase"></i>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-name">BootS4 (Portfolio)</div>
-                        <div class="product-details">
-                            <span class="product-price">$860</span> • 27%
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Storage Warning -->
-            <div class="card warning-card">
-                <div class="warning-title">Running out of your space?</div>
-                <div class="warning-text">
-                    Your storage will be running out soon. Get more space and powerful productivity features.
-                </div>
-                <button class="warning-btn">Upgrade storage <i class="bi bi-arrow-right"></i></button>
-            </div>
-        </div>
 
         <!-- Shared Files -->
         <div class="card">
             <div class="card-header">
-                <div class="card-title">Shared Files</div>
-                <div class="dropdown">All Files <i class="bi bi-chevron-down"></i></div>
+                <div class="card-title">Container Aquafrost</div>
+                <button type="button" class="btn btn-primary"><i class="bi bi-database-add"> Add Data</button></i>
+                <div class="dropdown">All Data <i class="bi bi-chevron-down"></i></div>
             </div>
 
             <div class="file-item">
